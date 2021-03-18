@@ -1,7 +1,7 @@
 serve:
 	python3 manage.py runserver
 
-makemigration:
+migration:
 	python3 manage.py makemigrations
 
 migrate:
@@ -9,4 +9,3 @@ migrate:
 
 add:
 	git add .
-	
